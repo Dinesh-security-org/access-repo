@@ -8,5 +8,5 @@ on:
     types: [opened, synchronize, reopened] 
 jobs:
   call-workflow-passing-data:
-    uses: Dinesh-security-org/Port/.github/workflows/check-readme.yml@main
+    uses: Dinesh-security-org/Port/.github/workflows/Check-repo-quality.yaml@main
     secrets: inherit
